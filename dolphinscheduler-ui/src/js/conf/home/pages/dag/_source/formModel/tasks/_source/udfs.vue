@@ -53,7 +53,7 @@
        * verification
        */
       _verifUdfs () {
-        this.$emit('on-udfsData', _.map(this.udfsStr, v => v.id).join(','))
+        this.$emit('on-udfsData', _.map(this.udfsStr, v => v).join(','))
         return true
       },
       /**
@@ -87,6 +87,9 @@
       }
     },
     watch: {
+      udfsStr (val) {
+        this._verifUdfs()
+      },
       type (a) {
         // The props parameter needs to be changed due to the scene.
         this.udfs = ''

@@ -45,6 +45,10 @@ const cycleList = [
 const dateValueList = {
   'hour': [
     {
+      value: 'last0Hour',
+      label: `${i18n.$t('Last0Hour')}`
+    },
+    {
       value: 'last1Hour',
       label: `${i18n.$t('Last1Hour')}`
     },

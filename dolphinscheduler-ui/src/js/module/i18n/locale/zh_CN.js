@@ -401,6 +401,7 @@ export default {
   'Running': '正在运行',
   'Waiting for dependency to complete': '等待依赖完成',
   'Selected': '已选',
+  'Last0Hour': '前0小时',
   'Last1Hour': '前1小时',
   'Last2Hours': '前2小时',
   'Last3Hours': '前3小时',

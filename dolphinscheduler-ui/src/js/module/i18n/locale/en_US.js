@@ -406,6 +406,7 @@ export default {
   'Running': 'Running',
   'Waiting for dependency to complete': 'Waiting for dependency to complete',
   'Selected': 'Selected',
+  'Last0Hour': 'last0Hour',
   'Last1Hour': 'Last1Hour',
   'Last2Hours': 'Last2Hours',
   'Last3Hours': 'Last3Hours',
